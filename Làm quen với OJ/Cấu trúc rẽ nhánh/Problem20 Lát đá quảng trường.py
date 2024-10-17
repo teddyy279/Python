@@ -1,4 +1,5 @@
-int n, m, a = map(int, input())
+n, m, a = map(int, input().split())
+tmp1, tmp2 = 0, 0
 if(n % a == 0):
     tmp1 = n // a
 else: tmp1 = n // a + 1

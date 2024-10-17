@@ -1,4 +1,4 @@
-n, a, b = map(int, input())
+n, a, b = map(int, input().split())
 if(b / 2 >= a): # b / 2 là tính nước trên 1 l của b 
     print(a * n)
 else:

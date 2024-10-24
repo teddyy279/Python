@@ -23,4 +23,4 @@ def check2(n):
 if __name__ == '__main__':
     a, b = map(int, input().split())
     for i in range(a, b + 1):
-        if(check1(i) and check2(i)): print(i, end = ' ')
+        if(check2(i) and check1(i)): print(i, end = ' ') #nên duyệt check 2 trước để tối ưu hơn 

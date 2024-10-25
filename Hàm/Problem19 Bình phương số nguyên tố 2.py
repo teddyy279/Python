@@ -7,8 +7,9 @@ def check(n):
             while(n % i == 0):
                 cnt += 1
                 n //= i
-            if(cnt >= 2): return True
-    return False
+            if(cnt == 1): return False
+    if n != 1: return False
+    return True
 
 if __name__ == '__main__':
     a, b = map(int, input().split())

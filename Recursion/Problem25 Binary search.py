@@ -1,4 +1,4 @@
-def Recursion_Binary_Search(a, left, right, x):
+def Binary_Search_Recursive(a, left, right, x):
     if(left > right): return False
     mid = (left + right) // 2
     if(a[mid] == x):

@@ -3,7 +3,7 @@ if __name__ == '__main__':
     a = list(map(int, input().split()))
     res = 0
     scare = 0
-    a.sort()
+    a.sort(reverse = True)
     for i in range(len(a)):
         if(scare < a[i]):
             res += a[i] - scare

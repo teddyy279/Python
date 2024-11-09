@@ -34,5 +34,5 @@ if __name__ == '__main__':
     cnt = 0
     for i in range(len(a)):
         if (Binary_Search1(a, i + 1, n, k - a[i]) != -1):
-        cnt += Binary_Search2(a, i + 1, n, k - a[i]) - Binary_Search1(a, i + 1, n, k - a[i]) + 1
+          cnt += Binary_Search2(a, i + 1, n, k - a[i]) - Binary_Search1(a, i + 1, n, k - a[i]) + 1
     print(cnt)  

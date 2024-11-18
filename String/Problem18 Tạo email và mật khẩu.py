@@ -14,3 +14,4 @@ if __name__ == '__main__':
         password = birth_of_date.split('/')
         for i in range(len(password)):
             print(int(password[i]), end='')
+        print()

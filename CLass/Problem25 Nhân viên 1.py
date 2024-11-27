@@ -31,6 +31,8 @@ if __name__ == '__main__':
     a = []
     for i in range(n):
         employee = Employee(i + 1, input(), input(), input(), input(), input(), input())
+        employee.normalize_birth_of_date()
+        employee.normalize_signed_date()
         a.append(employee)
     
     for x in a:

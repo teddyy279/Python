@@ -25,7 +25,7 @@ if __name__ == '__main__':
     t  = int(input())
     for _ in range(t):
         q = input()
-        print("DANH SACH SINH VIEN LOP x :")
+        print("DANH SACH SINH VIEN LOP q :")
         for x in a:
             if q == x.get_class_name():
                 print(x)

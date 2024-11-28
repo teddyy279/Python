@@ -1,9 +1,6 @@
 class Student:
     def __init__(self, ID, name, class_name, email):
-        self.ID = str(ID)
-        while len(self.ID) < 3:
-            self.ID = '0' + self.ID
-        self.ID = "SV" + self.ID
+        self.ID = ID
         self.name = name
         self.class_name = class_name
         self.email = email
@@ -18,7 +15,7 @@ if __name__ == '__main__':
     n = int(input())
     a = []
     for i in range(n):
-        student = Student(i + 1, input(), input(), input())
+        student = Student(input(), input(), input(), input())
         a.append(student)
     
     a.sort(key = lambda x : x.get_class_name())

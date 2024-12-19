@@ -10,7 +10,7 @@ def Euclid_Euler(n):
     for p in range(2, 35):
         if(prime(p)):
             if(prime(2 ** p - 1)):
-                if((2 * (p - 1)) * (2 * p - 1)) == n: 
+                if((2 ** (p - 1)) * (2 ** p - 1)) == n: 
                     return True
     return False
 
